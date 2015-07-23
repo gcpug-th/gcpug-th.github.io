@@ -60,6 +60,7 @@
 }
 .ui.vertical.stripe .speaker-profile {
   font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding-bottom: 2em;
 }
 .ui.vertical.stripe .speaker-profile .name {
   font-weight: 300;
@@ -72,6 +73,29 @@
   line-height: 1em;
   margin-bottom: 1em;
 }
+.ui.vertical.stripe .agendar {
+  text-align: left;
+  padding-left: 2em;
+  border-left: 1px dashed #aaa;
+}
+.ui.vertical.stripe .agendar .section {
+  padding-bottom: 3em;
+}
+.ui.vertical.stripe .agendar .section:last-child {
+  padding-bottom: 0em;
+}
+.ui.vertical.stripe .agendar .section .time {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 200;
+  color: #aaa;
+}
+.ui.vertical.stripe .agendar .section .subject {
+  font-weight: 100;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 0.3em;
+}
 .ui.secondary.inverted.pointing.menu {
   border: 0;
 }
@@ -81,4 +105,69 @@
 .ui.inverted.segment.cover {
   background: url("../assets/images/bkk.jpg") no-repeat center;
   background-size: cover;
+}
+@media (max-width: 1200px) {
+  .masthead h1.ui.header {
+    font-size: 3.6em;
+    margin-bottom: 0.3em;
+  }
+  .masthead h2 {
+    font-size: 2.2em;
+  }
+  .masthead h3 {
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 991px) {
+  .masthead h1.ui.header {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+  }
+  .masthead h2 {
+    font-size: 2em;
+  }
+  .masthead h3 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 768px) {
+  .masthead h1.ui.header {
+    font-size: 2.2em;
+    margin-bottom: 0.1em;
+  }
+  .masthead h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+  }
+  .masthead h3 {
+    font-size: 1em;
+  }
+  .ui.header {
+    line-height: 1.1em;
+  }
+  .ui.vertical.stripe {
+    padding: 4em 0em;
+  }
+  .ui.vertical.stripe h3 {
+    font-size: 1.5em;
+  }
+  .ui.vertical.stripe h4 {
+    font-size: 2em;
+  }
+  .ui.vertical.stripe .agendar .section .subject {
+    font-size: 1.8em;
+  }
+  .ui.vertical.stripe .speaker-profile .name {
+    font-size: 2em;
+    margin-top: 0.5em;
+  }
+}
+@media (max-width: 480px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
 }

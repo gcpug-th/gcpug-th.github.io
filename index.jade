@@ -6,13 +6,13 @@ head
   meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
   // Site Properities
   title Homepage - Semantic
-  link(rel='stylesheet', type='text/css', href='/dist/icon.css')
+  link(rel='stylesheet', type='text/css', href='/dist/icon.min.css')
   link(rel='stylesheet', type='text/css', href='/dist/semantic.min.css')
   // Style
   link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700|Roboto:400,300')
   link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
   
-  script(src='/assets/library/jquery.min.js')
+  script(src='/dist/jquery.min.js')
   script(src='/dist/semantic.min.js')
   
   script.
@@ -41,17 +41,23 @@ body
   // Following Menu
   .ui.large.top.fixed.hidden.menu
     .ui.container
-      a.active.item About
-      a.item Contact
+      a.active.item(href="#home") Home
+      a.item(href="#agendar") Agendar
+      a.item(href="#speaker") Speaker
+      a.item(href="#about") About
+      a.item(href="#maps") Maps
   // Page Contents
   .pusher
     //- Cover
+    #home
     .ui.inverted.vertical.masthead.center.aligned.segment.cover
       .ui.container
         .ui.secondary.inverted.pointing.menu
           .center.item
-            i.inverted.big.facebook.icon.link
-            i.inverted.big.github.icon.link
+            a(href='https://www.facebook.com/groups/googlecloudplatformTH')
+              i.inverted.big.facebook.icon.link
+            a(href='https://github.com/gcpug-th')
+              i.inverted.big.github.icon.link
       .ui.text.container
         h1.ui.inverted.header
           | Google Cloud Platform<br>Developer Roadshow
@@ -63,7 +69,56 @@ body
         .center.aligned.row
           .sixteen.wide.column
             h3 "Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of <strong>Google Cloud Platform</strong>."
+    //- Agendar
+    #agendar
+    .ui.vertical.stripe.segment
+      .ui.center.aligned.stackable.grid.container
+        .row
+          .sixteen.wide.column
+            h4 Agendar
+      .ui.center.aligned.stackable.grid.container
+        .row
+          .sixteen.wide.tablet.twelve.wide.computer.column
+            .agendar
+              .section
+                .time
+                  | 3:00 PM
+                .subject
+                  | Registration
+              .section
+                .time
+                  | 3:15 PM
+                .subject
+                  | Welcome
+              .section
+                .time
+                  | 3:25 PM
+                .subject
+                  | Firebase - Build Extraordinary Apps
+                p Firebase is a new member of Google Cloud Platform, but a proven tool for creating real-time experiences. Firebase is the fastest way to build your app. Come and learn how you can build applications quickly without managing complex infrastructure.
+              .section
+                .time
+                  | 4:10 PM
+                .subject
+                  | Modern DevOps with GCP
+                p In this talk I will discuss different ways of developing and operating infrastructures for web services, also referred to as DevOps. This will include topics such as infrastructure provisioning, continuous integration, application deployment, and monitoring. GCP services such as load-balancing and BigQuery, which are useful for improving efficiency of various DevOps processes, will also be covered. Finally, I will introduce Mackerel, a server monitoring SaaS that functions as a hub of actions pertaining to DevOps.
+              .section
+                .time
+                  | 4:55 PM
+                .subject
+                  | Your Data and the World Beyond MapReduce
+                p Google's MapReduce has been the most important innovation in the Big Data industry in last decade, which provided the technical foundation for Apache Hadoop MapReduce and other solutions. But at Google, we have moved to next generation technologies such as Dremel, Flume and MillWheel that replace the classic MapReduce infrastructure. In this session, we will introduce two products from Google Cloud Platform, BigQuery and Cloud Dataflow, that allow developers to leverage the power of the Google's latest Big Data technologies.
+              .section
+                .time
+                  | 5:40 PM
+                .subject
+                  | Q&A and Networking
+      .ui.center.aligned.stackable.grid.container
+        .row
+          .sixteen.wide.column
+            a.big.ui.button.primary(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform') Register Now!
     //- Speaker
+    #speaker
     .ui.vertical.stripe.segment
       .ui.center.aligned.stackable.grid.container
         .row
@@ -77,16 +132,22 @@ body
                 | Kazunori Sato
               .meta 
                 | Developer Advocate
-            p.left.aligned Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
+              p.left.aligned Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
           .sixteen.wide.mobile.eight.wide.tablet.seven.wide.computer.column.right.floated
-            img.ui.centered.medium.circular.image(src='/assets/images/kazunori.jpg')
+            img.ui.centered.medium.circular.image(src='/assets/images/shinji.jpg')
             .speaker-profile
               .name 
                 | Shinji Tanaka
               .meta 
                 | Google Developer Expert
-            p.left.aligned Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.
+              p.left.aligned Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.
+    //- About
+    #about
     .ui.vertical.stripe.segment
+      .ui.center.aligned.stackable.grid.container
+        .row
+          .sixteen.wide.column
+            h4 About <strong>GCPUG</strong> and <strong>GDG</strong>
       .ui.middle.aligned.stackable.grid.container
         .row
           .eight.wide.column
@@ -99,5 +160,7 @@ body
               | (Google Developer Group) is developer community by the developers, for the developers with a shared interest in Google technologies
           .six.wide.right.floated.column
             img.ui.centered.image(src='assets/images/gcpugth.png')
+    //- Maps
+    #maps
     .ui.vertical.maps
-      iframe(width='100%', height='70%', frameborder='0', style='border:0', src='https://www.google.com/maps/embed/v1/place?q=Google%20(Thailand)%20Company%20Limited%20Pathum%20Wan%20Bangkok%20Thailand&key=AIzaSyCkGhqiGVkX6v28juzvA6NDJC9CWo3Ixbw', allowfullscreen='', allowzoom='no')
+        iframe(width='100%', height='70%', frameborder='0', style='border:0', src='https://www.google.com/maps/embed/v1/place?q=Google%20(Thailand)%20Company%20Limited%20Pathum%20Wan%20Bangkok%20Thailand&key=AIzaSyCkGhqiGVkX6v28juzvA6NDJC9CWo3Ixbw', allowfullscreen='', allowzoom='no')

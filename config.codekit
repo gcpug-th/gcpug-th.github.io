@@ -2,39 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
-	"\/assets\/images\/avatar\/nan.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23839,
-		"inputAbbreviatedPath": "\/assets\/images\/avatar\/nan.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/avatar\/nan.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/avatar\/tom.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25265,
-		"inputAbbreviatedPath": "\/assets\/images\/avatar\/tom.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/avatar\/tom.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 111239,
-		"inputAbbreviatedPath": "\/assets\/images\/bg.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/bkk.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -57,190 +24,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/logo.png": {
-		"fileType": 32768,
+	"\/assets\/images\/kazunori.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 731,
-		"inputAbbreviatedPath": "\/assets\/images\/logo.png",
-		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"initialSize": 21206,
+		"inputAbbreviatedPath": "\/assets\/images\/kazunori.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/kazunori.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/wireframe\/centered-paragraph.png": {
-		"fileType": 32768,
+	"\/assets\/images\/shinji.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1988,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/centered-paragraph.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/centered-paragraph.png",
+		"initialSize": 74585,
+		"inputAbbreviatedPath": "\/assets\/images\/shinji.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/shinji.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/image-square.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6227,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/image-square.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/image-square.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/image-text.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9835,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/image-text.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/image-text.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/image.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7175,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/image.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/image.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/media-paragraph-alt.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2393,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/media-paragraph-alt.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/media-paragraph-alt.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/media-paragraph.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3465,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/media-paragraph.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/media-paragraph.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/paragraph.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2476,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/paragraph.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/paragraph.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/short-paragraph.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1281,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/short-paragraph.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/short-paragraph.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/square-image.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1787,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/square-image.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/square-image.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/text-image.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1924,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/text-image.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/text-image.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/wireframe\/white-image.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5951,
-		"inputAbbreviatedPath": "\/assets\/images\/wireframe\/white-image.png",
-		"outputAbbreviatedPath": "\/assets\/images\/wireframe\/white-image.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/library\/iframe-content.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/library\/iframe-content.js",
-		"outputAbbreviatedPath": "\/assets\/library\/min\/iframe-content-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/library\/iframe.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/library\/iframe.js",
-		"outputAbbreviatedPath": "\/assets\/library\/min\/iframe-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/library\/jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/library\/jquery.min.js",
-		"outputAbbreviatedPath": "\/assets\/library\/min\/jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/show-examples.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/show-examples.js",
-		"outputAbbreviatedPath": "\/assets\/min\/show-examples-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/dist\/accordion.css": {
 		"fileType": 16,
@@ -795,6 +599,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/jquery.min.js",
+		"outputAbbreviatedPath": "\/dist\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/dist\/label.css": {
 		"fileType": 16,
@@ -1618,6 +1433,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1628,17 +1452,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/params.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/params.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/params-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
 		},
 	"\/stylesheets\/github-light.css": {
 		"fileType": 16,
