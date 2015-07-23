@@ -1309,6 +1309,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/themes\/default\/assets\/images\/flags.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28123,
+		"inputAbbreviatedPath": "\/dist\/themes\/default\/assets\/images\/flags.png",
+		"outputAbbreviatedPath": "\/dist\/themes\/default\/assets\/images\/flags.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/transition.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1504,17 +1515,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/themes\/default\/assets\/images\/flags.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28123,
-		"inputAbbreviatedPath": "\/themes\/default\/assets\/images\/flags.png",
-		"outputAbbreviatedPath": "\/themes\/default\/assets\/images\/flags.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		}
 	},
 "hooks": [
