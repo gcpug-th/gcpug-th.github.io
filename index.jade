@@ -6,29 +6,15 @@ head
   meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
   // Site Properities
   title Homepage - Semantic
-  link(rel='stylesheet', type='text/css', href='/dist/reset.css')
-  link(rel='stylesheet', type='text/css', href='/dist/site.css')
-  link(rel='stylesheet', type='text/css', href='/dist/container.css')
-  link(rel='stylesheet', type='text/css', href='/dist/grid.css')
-  link(rel='stylesheet', type='text/css', href='/dist/header.css')
-  link(rel='stylesheet', type='text/css', href='/dist/image.css')
-  link(rel='stylesheet', type='text/css', href='/dist/menu.css')
-  link(rel='stylesheet', type='text/css', href='/dist/divider.css')
-  link(rel='stylesheet', type='text/css', href='/dist/dropdown.css')
-  link(rel='stylesheet', type='text/css', href='/dist/segment.css')
-  link(rel='stylesheet', type='text/css', href='/dist/button.css')
-  link(rel='stylesheet', type='text/css', href='/dist/list.css')
   link(rel='stylesheet', type='text/css', href='/dist/icon.css')
-  link(rel='stylesheet', type='text/css', href='/dist/sidebar.css')
-  link(rel='stylesheet', type='text/css', href='/dist/transition.css')
-  link(rel='stylesheet', type='text/css', href='/dist/semantic.min.css', class='ui')
+  link(rel='stylesheet', type='text/css', href='/dist/semantic.min.css')
   // Style
+  link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700|Roboto:400,300')
   link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
   
   script(src='/assets/library/jquery.min.js')
-  script(src='/dist/visibility.js')
-  script(src='/dist/sidebar.js')
-  script(src='/dist/transition.js')
+  script(src='/dist/semantic.min.js')
+  
   script.
     $(document)
     .ready(function() {
@@ -57,34 +43,49 @@ body
     .ui.container
       a.active.item About
       a.item Contact
-  // Sidebar Menu
-  .ui.vertical.inverted.sidebar.menu
-    a.active.item About
-    a.item Contact
   // Page Contents
   .pusher
+    //- Cover
     .ui.inverted.vertical.masthead.center.aligned.segment.cover
       .ui.container
         .ui.secondary.inverted.pointing.menu
-          a.toc.item
-            i.sidebar.icon
           .center.item
             i.inverted.big.facebook.icon.link
             i.inverted.big.github.icon.link
       .ui.text.container
         h1.ui.inverted.header
-          | Google Cloud Platform Developer Roadshow
-        h2
-          p <i class="calendar icon"></i> August 28, 3-6PM at Google Bangkok Office
-          p by Google Cloud Platform User Group and Google Developer Group
-          p
-          .ui.huge.button.inverted
-            | Get Started 
+          | Google Cloud Platform<br>Developer Roadshow
+        h2 August 28, 3-6PM at Google Bangkok Office
+        h3 by Google Cloud Platform User Group and Google Developer Group
+    //- Welcome Text
     .ui.vertical.stripe.segment
       .ui.middle.aligned.stackable.grid.container
         .center.aligned.row
           .sixteen.wide.column
-            h3 "Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of Google Cloud Platform."
+            h3 "Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of <strong>Google Cloud Platform</strong>."
+    //- Speaker
+    .ui.vertical.stripe.segment
+      .ui.center.aligned.stackable.grid.container
+        .row
+          .eight.wide.column
+            h4 Speaker
+        .row
+          .sixteen.wide.mobile.eight.wide.tablet.seven.wide.computer.column.left.floated
+            img.ui.centered.medium.circular.image(src='/assets/images/kazunori.jpg')
+            .speaker-profile
+              .name 
+                | Kazunori Sato
+              .meta 
+                | Developer Advocate
+            p.left.aligned Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
+          .sixteen.wide.mobile.eight.wide.tablet.seven.wide.computer.column.right.floated
+            img.ui.centered.medium.circular.image(src='/assets/images/kazunori.jpg')
+            .speaker-profile
+              .name 
+                | Shinji Tanaka
+              .meta 
+                | Google Developer Expert
+            p.left.aligned Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.
     .ui.vertical.stripe.segment
       .ui.middle.aligned.stackable.grid.container
         .row
@@ -97,100 +98,6 @@ body
             p
               | (Google Developer Group) is developer community by the developers, for the developers with a shared interest in Google technologies
           .six.wide.right.floated.column
-            img.ui.image(src='assets/images/gcpugth.png')
-    .ui.vertical.stripe.segment
-      .ui.middle.stackable.grid.container
-        .center.aligned.row
-          .ui.link.card
-            .card
-              .image
-                img(src='/images/avatar2/large/matthew.png')
-              .content
-                .header 
-                  | Mike
-                .meta
-                  | Friend
-    .ui.vertical.stripe.segment
-      .ui.middle.stackable.grid.container
-        .row
-          .ten.wide.column
-            .ui.link.cards
-              .card
-                .image
-                  img(src='/images/avatar2/large/matthew.png')
-                .content
-                  .header Matt Giampietro
-                  .meta
-                    a Friends
-                  .description
-                    | Matthew is an interior designer living in New York.
-                .extra.content
-                  span.right.floated
-                    | Joined in 2013
-                  span
-                    i.user.icon
-                    |             75 Friends
-              .card
-                .image
-                  img(src='/images/avatar2/large/molly.png')
-                .content
-                  .header Molly
-                  .meta
-                    span.date Coworker
-                  .description
-                    | Molly is a personal assistant living in Paris.
-                .extra.content
-                  span.right.floated
-                    | Joined in 2011
-                  span
-                    i.user.icon
-                    |             35 Friends
-
-
-                
-          
-    //- .ui.vertical.stripe.quote.segment
-    //-   .ui.equal.width.stackable.internally.celled.grid
-    //-     .center.aligned.row
-    //-       .column
-    //-         h3 "What a Company"
-    //-         p That is what they all say about us
-    //-       .column
-    //-         h3 "I shouldn't have gone with their competitor."
-    //-         p
-    //-           img.ui.avatar.image(src='assets/images/avatar/nan.jpg')
-    //-           b Nan
-    //-           |  Chief Fun Officer Acme Toys
-    //- .ui.vertical.stripe.segment
-    //-   .ui.text.container
-    //-     h3.ui.header Breaking The Grid, Grabs Your Attention
-    //-     p
-    //-       | Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.
-    //-     a.ui.large.button Read More
-    //-     h4.ui.horizontal.header.divider
-    //-       a(href='#') Case Studies
-    //-     h3.ui.header Did We Tell You About Our Bananas?
-    //-     p
-    //-       | Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.
-    //-     a.ui.large.button I'm Still Quite Interested
-    .ui.inverted.vertical.footer.segment
-      .ui.container
-        .ui.stackable.inverted.divided.equal.height.stackable.grid
-          .three.wide.column
-            h4.ui.inverted.header About
-            .ui.inverted.link.list
-              a.item(href='#') Sitemap
-              a.item(href='#') Contact Us
-              a.item(href='#') Religious Ceremonies
-              a.item(href='#') Gazebo Plans
-          .three.wide.column
-            h4.ui.inverted.header Services
-            .ui.inverted.link.list
-              a.item(href='#') Banana Pre-Order
-              a.item(href='#') DNA FAQ
-              a.item(href='#') How To Access
-              a.item(href='#') Favorite X-Men
-          .seven.wide.column
-            h4.ui.inverted.header Footer Header
-            p
-              | Extra space for a call to action inside the footer that could help re-engage users.
+            img.ui.centered.image(src='assets/images/gcpugth.png')
+    .ui.vertical.maps
+      iframe(width='100%', height='70%', frameborder='0', style='border:0', src='https://www.google.com/maps/embed/v1/place?q=Google%20(Thailand)%20Company%20Limited%20Pathum%20Wan%20Bangkok%20Thailand&key=AIzaSyCkGhqiGVkX6v28juzvA6NDJC9CWo3Ixbw', allowfullscreen='', allowzoom='no')
