@@ -10,39 +10,7 @@ html
     link(rel='stylesheet', type='text/css', href='/dist/semantic.min.css')
     // Style
     link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700|Roboto:400,300')
-    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
-    
-    script(src='/dist/jquery.min.js')
-    script(src='/dist/semantic.min.js')
-    
-    script.
-      $(document)
-      .ready(function() {
-      // fix menu when passed
-      $('.masthead')
-      .visibility({
-      once: false,
-      onBottomPassed: function() {
-      $('.fixed.menu').transition('fade in');
-      },
-      onBottomPassedReverse: function() {
-      $('.fixed.menu').transition('fade out');
-      }
-      })
-      ;
-      // create sidebar and attach to menu open
-      $('.ui.sidebar')
-      .sidebar('attach events', '.toc.item')
-      ;
-      })
-      ;
-    script.
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-65565573-1', 'auto');
-      ga('send', 'pageview');      
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')    
 
   body.th
     // Following Menu
@@ -54,6 +22,7 @@ html
           a.item(href="#speaker") Speaker
           a.item(href="#about") About
           a.item(href="#maps") Maps
+          a(href='#').right.item.switch-lang TH
         
     .th
       .ui.large.top.fixed.hidden.menu
@@ -63,10 +32,8 @@ html
           a.item(href="#speaker") ผู้บรรยาย
           a.item(href="#maps") แผนที่
           a.item(href="#about") เกี่ยวกับเรา
-          .right.item
-            a(href='#') EN
-            |  /
-            a(href='#') TH
+          a(href='#').right.item.switch-lang EN
+
     // Page Contents
     .pusher
       //- Cover
@@ -80,14 +47,13 @@ html
               a(href='https://github.com/gcpug-th')
                 i.inverted.big.github.icon.link
             .right.item
-              a(href='#') EN
-              |  /
-              a(href='#') TH
+              a(href='#').ui.button.inverted.switch-lang.th EN
+              a(href='#').ui.button.inverted.switch-lang.en TH
         .ui.text.container
           h1.ui.inverted.header
             | Google Cloud Platform<br>Developer Roadshow
           h2.en August 28, 3-6PM at Google Bangkok Office
-          h2.th 28 สิงหาคม, บ่าย 3 ถึง 6 โมงเย็น<br>ที่ออฟฟิศ Google ประเทศไทย
+          h2.th 28 สิงหาคม, บ่าย 3 ถึง 6 โมงเย็น ที่ออฟฟิศ Google ประเทศไทย
           h3.en by Google Cloud Platform User Group and Google Developer Group
           h3.th โดย Google Cloud Platform User Group และ Google Developer Group
           .row
@@ -207,7 +173,9 @@ html
                 .meta 
                   | Developer Advocate
                 p.left.aligned.en Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
-                p.left.aligned.th Kazunori Sato เป็นผู้ให้การสนับสนุนนักพัฒนาที่ทีม Cloud Platform ของ Google เขาทำงานเป็นผู้สนับสนุนสำหรับ Google Cloud Platform พัฒนาชุมชนในเอเชียเช่น GCP User Group (GCPUG) #bq_sushi และ GCP ja night นอกจากนี้เขายังสนับสนุนการเปิดตัว Bid Data Product เช่น Cloud Dataflow และ BigQuery
+                p.left.aligned.th.
+                  คุณ Sato เป็น Developer Advocate ที่ Cloud Platform team, Google Inc
+                  ดูแลและสนับสนุนนักพัฒนา Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
             .sixteen.wide.mobile.eight.wide.tablet.seven.wide.computer.column.right.floated
               img.ui.centered.small.circular.image(src='/assets/images/shinji.jpg')
               .speaker-profile
@@ -258,3 +226,40 @@ html
                     i.inverted.big.github.icon.link
                 .email
                   | gcpug.th@gmail.com
+                  
+
+                  
+    script(src='/dist/jquery.min.js')
+    script(src='/dist/semantic.min.js')
+    
+    script.
+      $(function() {
+        // fix menu when passed
+        $('.masthead').visibility({
+          once: false,
+          onBottomPassed: function() {
+            $('.fixed.menu').transition('fade in');
+          },
+          onBottomPassedReverse: function() {
+            $('.fixed.menu').transition('fade out');
+          }
+        });
+        // create sidebar and attach to menu open
+        $('.ui.sidebar').sidebar('attach events', '.toc.item'); 
+        
+        var current_lang = 'th';
+        $('body').addClass(current_lang);
+        $('.switch-lang').click(function(){
+          $('body').removeClass(current_lang);
+          current_lang = (current_lang == 'th') ? 'en' : 'th';
+          $('body').addClass(current_lang);
+          return false;
+        })
+      });
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-65565573-1', 'auto');
+      ga('send', 'pageview');  
