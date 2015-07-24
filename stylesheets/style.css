@@ -86,6 +86,7 @@ body.th .en {
 }
 .ui.vertical.stripe .agendar .section {
   padding-bottom: 3em;
+  position: relative;
 }
 .ui.vertical.stripe .agendar .section:before {
   content: '';
@@ -93,7 +94,8 @@ body.th .en {
   height: 1em;
   background: #fff;
   position: absolute;
-  left: 0.5em;
+  left: -2.5em;
+  top: 0.7em;
   border-radius: 50%;
   border: 2px solid #aaa;
 }
@@ -107,10 +109,10 @@ body.th .en {
   color: #aaa;
 }
 .ui.vertical.stripe .agendar .section .subject {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 2em;
   line-height: 1.2em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.1em;
 }
 .ui.secondary.inverted.pointing.menu {
   border: 0;

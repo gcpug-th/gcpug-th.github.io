@@ -35,6 +35,14 @@
       ;
       })
       ;
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-65565573-1', 'auto');
+      ga('send', 'pageview');      
       
     </script>
   </head>
@@ -47,7 +55,9 @@
     </div>
     <div class="th">
       <div class="ui large top fixed hidden menu">
-        <div class="ui container"><a href="#home" class="active item">หน้าแรก</a><a href="#agendar" class="item">กำหนดการณ์</a><a href="#speaker" class="item">ผู้บรรยาย</a><a href="#maps" class="item">แผนที่</a><a href="#about" class="item">เกี่ยวกับเรา</a></div>
+        <div class="ui container"><a href="#home" class="active item">หน้าแรก</a><a href="#agendar" class="item">กำหนดการณ์</a><a href="#speaker" class="item">ผู้บรรยาย</a><a href="#maps" class="item">แผนที่</a><a href="#about" class="item">เกี่ยวกับเรา</a>
+          <div class="right item"><a href="#">EN</a> /<a href="#">TH</a></div>
+        </div>
       </div>
     </div>
     <!-- Page Contents-->
@@ -56,13 +66,16 @@
       <div class="ui inverted vertical masthead center aligned segment cover">
         <div class="ui container">
           <div class="ui secondary inverted pointing menu">
-            <div class="center item"><a href="https://www.facebook.com/groups/googlecloudplatformTH"><i class="inverted big facebook icon link"></i></a><a href="https://github.com/gcpug-th"><i class="inverted big github icon link"></i></a></div>
+            <div class="left item"><a href="https://www.facebook.com/groups/googlecloudplatformTH"><i class="inverted big facebook icon link"></i></a><a href="https://github.com/gcpug-th"><i class="inverted big github icon link"></i></a></div>
+            <div class="right item"><a href="#">EN</a> /<a href="#">TH</a></div>
           </div>
         </div>
         <div class="ui text container">
           <h1 class="ui inverted header">Google Cloud Platform<br>Developer Roadshow</h1>
-          <h2>August 28, 3-6PM at Google Bangkok Office</h2>
-          <h3>by Google Cloud Platform User Group and Google Developer Group</h3>
+          <h2 class="en">August 28, 3-6PM at Google Bangkok Office</h2>
+          <h2 class="th">28 สิงหาคม, บ่าย 3 ถึง 6 โมงเย็น<br>ที่ออฟฟิศ Google ประเทศไทย</h2>
+          <h3 class="en">by Google Cloud Platform User Group and Google Developer Group</h3>
+          <h3 class="th">โดย Google Cloud Platform User Group และ Google Developer Group</h3>
           <div class="row">
             <div class="sixteen wide column"><a href="https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform" class="big ui inverted button en">Register Now!</a><a href="https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform" class="big ui inverted button th">ลงทะเบียน</a></div>
           </div>
@@ -72,7 +85,8 @@
         <div class="ui middle aligned stackable grid container">
           <div class="center aligned row">
             <div class="sixteen wide column">
-              <h3>"Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of <strong>Google Cloud Platform</strong>."</h3>
+              <h3 class="en">Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of <strong>Google Cloud Platform</strong>.</h3>
+              <h3 class="th">มาร่วมการเรียนรู้ พูดคุย แลกเปลี่ยนประสบการณ์ และความรู้ ในเรื่องอนาคตของ Cloud, Storage, Big data และ <strong>Google Cloud Platform</strong></h3>
             </div>
           </div>
         </div>
@@ -82,7 +96,8 @@
         <div class="ui center aligned stackable grid container">
           <div class="row">
             <div class="sixteen wide column">
-              <h4>Agendar</h4>
+              <h4 class="en">Agendar</h4>
+              <h4 class="th">กำหนดการณ์</h4>
             </div>
           </div>
         </div>
@@ -90,32 +105,59 @@
           <div class="row">
             <div class="sixteen wide tablet twelve wide computer column">
               <div class="agendar">
-                <div class="section">
-                  <div class="time">3:00 PM</div>
+                <div class="section en">
                   <div class="subject">Registration</div>
+                  <div class="time">3:00 PM</div>
                 </div>
-                <div class="section">
-                  <div class="time">3:15 PM</div>
+                <div class="section th">
+                  <div class="subject">ลงทะเบียน</div>
+                  <div class="time">15:00 น.</div>
+                </div>
+                <div class="section en">
                   <div class="subject">Welcome</div>
+                  <div class="time">3:15 PM</div>
                 </div>
-                <div class="section">
-                  <div class="time">3:25 PM</div>
+                <div class="section th">
+                  <div class="subject">พิธีเปิด</div>
+                  <div class="time">15:15 น.</div>
+                </div>
+                <div class="section en">
                   <div class="subject">Firebase - Build Extraordinary Apps</div>
+                  <div class="time">3:25 PM</div>
                   <p>Firebase is a new member of Google Cloud Platform, but a proven tool for creating real-time experiences. Firebase is the fastest way to build your app. Come and learn how you can build applications quickly without managing complex infrastructure.</p>
                 </div>
-                <div class="section">
-                  <div class="time">4:10 PM</div>
+                <div class="section th">
+                  <div class="subject">Firebase - แปลๆแปลจ๊ะแปล</div>
+                  <div class="time">15:25 น.</div>
+                  <p>Firebase is a new member of Google Cloud Platform, but a proven tool for creating real-time experiences. Firebase is the fastest way to build your app. Come and learn how you can build applications quickly without managing complex infrastructure.</p>
+                </div>
+                <div class="section en">
                   <div class="subject">Modern DevOps with GCP</div>
+                  <div class="time">4:10 PM</div>
                   <p>In this talk I will discuss different ways of developing and operating infrastructures for web services, also referred to as DevOps. This will include topics such as infrastructure provisioning, continuous integration, application deployment, and monitoring. GCP services such as load-balancing and BigQuery, which are useful for improving efficiency of various DevOps processes, will also be covered. Finally, I will introduce Mackerel, a server monitoring SaaS that functions as a hub of actions pertaining to DevOps.</p>
                 </div>
-                <div class="section">
-                  <div class="time">4:55 PM</div>
+                <div class="section th">
+                  <div class="subject">Modern DevOps with GCP แปลๆ</div>
+                  <div class="time">16:10 น.</div>
+                  <p>In this talk I will discuss different ways of developing and operating infrastructures for web services, also referred to as DevOps. This will include topics such as infrastructure provisioning, continuous integration, application deployment, and monitoring. GCP services such as load-balancing and BigQuery, which are useful for improving efficiency of various DevOps processes, will also be covered. Finally, I will introduce Mackerel, a server monitoring SaaS that functions as a hub of actions pertaining to DevOps.</p>
+                </div>
+                <div class="section en">
                   <div class="subject">Your Data and the World Beyond MapReduce</div>
+                  <div class="time">4:55 PM</div>
                   <p>Google's MapReduce has been the most important innovation in the Big Data industry in last decade, which provided the technical foundation for Apache Hadoop MapReduce and other solutions. But at Google, we have moved to next generation technologies such as Dremel, Flume and MillWheel that replace the classic MapReduce infrastructure. In this session, we will introduce two products from Google Cloud Platform, BigQuery and Cloud Dataflow, that allow developers to leverage the power of the Google's latest Big Data technologies.</p>
                 </div>
-                <div class="section">
-                  <div class="time">5:40 PM</div>
+                <div class="section th">
+                  <div class="subject">ข้อมูลของคุณและโลกนอกเหนือจาก MapReduce</div>
+                  <div class="time">16:55 น.</div>
+                  <p>Google's MapReduce has been the most important innovation in the Big Data industry in last decade, which provided the technical foundation for Apache Hadoop MapReduce and other solutions. But at Google, we have moved to next generation technologies such as Dremel, Flume and MillWheel that replace the classic MapReduce infrastructure. In this session, we will introduce two products from Google Cloud Platform, BigQuery and Cloud Dataflow, that allow developers to leverage the power of the Google's latest Big Data technologies.</p>
+                </div>
+                <div class="section en">
                   <div class="subject">Q&A and Networking</div>
+                  <div class="time">5:40 PM</div>
+                </div>
+                <div class="section th">
+                  <div class="subject">ถามตอบ และระบบเครือข่าย</div>
+                  <div class="time">17:40 น.</div>
                 </div>
               </div>
             </div>
@@ -123,7 +165,7 @@
         </div>
         <div class="ui center aligned stackable grid container">
           <div class="row">
-            <div class="sixteen wide column"><a href="https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform" class="big ui button primary">Register Now!</a></div>
+            <div class="sixteen wide column"><a href="https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform" class="big ui button primary en">Register Now!</a><a href="https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform" class="big ui button primary th">ลงทะเบียน</a></div>
           </div>
         </div>
       </div>
@@ -132,7 +174,8 @@
         <div class="ui center aligned stackable grid container">
           <div class="row">
             <div class="eight wide column">
-              <h4>Speaker</h4>
+              <h4 class="en">Speaker</h4>
+              <h4 class="th">ผู้บรรยาย</h4>
             </div>
           </div>
           <div class="row">
@@ -146,7 +189,8 @@
                    
                   Developer Advocate
                 </div>
-                <p class="left aligned">Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.</p>
+                <p class="left aligned en">Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.</p>
+                <p class="left aligned th">Kazunori Sato เป็นผู้ให้การสนับสนุนนักพัฒนาที่ทีม Cloud Platform ของ Google เขาทำงานเป็นผู้สนับสนุนสำหรับ Google Cloud Platform พัฒนาชุมชนในเอเชียเช่น GCP User Group (GCPUG) #bq_sushi และ GCP ja night นอกจากนี้เขายังสนับสนุนการเปิดตัว Bid Data Product เช่น Cloud Dataflow และ BigQuery</p>
               </div>
             </div>
             <div class="sixteen wide mobile eight wide tablet seven wide computer column right floated"><img src="/assets/images/shinji.jpg" class="ui centered small circular image"/>
@@ -159,7 +203,8 @@
                    
                   Google Developer Expert
                 </div>
-                <p class="left aligned">Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.</p>
+                <p class="left aligned en">Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.</p>
+                <p class="left aligned th">Shinji Tanaka เป็น CTO (ประธานเจ้าหน้าที่ฝ่ายเทคโนโลยี) ของบริษัท Hatena เป็นผู้ให้บริการหลายหลายทางด้าน web-based service เช่น Hatena Blog และ Hatena Bookmark และได้เปิดตัวบริการใหม่ Mackerel เป็นบริการจัดการระบบ Cloud SaaS ในปี 2557 เขาเป็นผู้ดูแลเทคโนโลยีที่อยู่เบื้องหลังทั้งหมดของบริการของ Hatena ตั้งแต่ feont-end จนถึง Infrastructure</p>
               </div>
             </div>
           </div>
@@ -175,7 +220,8 @@
         <div class="ui center aligned stackable grid container">
           <div class="row">
             <div class="sixteen wide column">
-              <h4>About <strong>GCPUG</strong> and <strong>GDG</strong></h4>
+              <h4 class="en">About <strong>GCPUG</strong> and <strong>GDG</strong></h4>
+              <h4 class="th">เกี่ยวกับ <strong>GCPUG</strong> และ <strong>GDG</strong></h4>
             </div>
           </div>
         </div>
@@ -186,9 +232,11 @@
                  
                 GCPUG
               </h3>
-              <p>(Google Cloud Platform User Group) is a group for Cloud users, fans, experts and scholars</p>
+              <p class="en">(Google Cloud Platform User Group) is a group for Cloud users, fans, experts and scholars</p>
+              <p class="th">(Google Cloud Platform User Group) คือชุมชนที่รวมตัวของผู้ใช้งาน Google Cloud ผู้ชื่นชอบ ผู้เชี่ยวชาญและนักวิชาการ</p>
               <h3 class="ui header">GDG</h3>
-              <p>(Google Developer Group) is developer community by the developers, for the developers with a shared interest in Google technologies</p>
+              <p class="en">(Google Developer Group) is developer community by the developers, for the developers with a shared interest in Google technologies</p>
+              <p class="th">(Google Developer Group) ชุมชนสำหรับนักพัฒนาจากนักพัฒนาด้วยกัน สำหรับให้นักพัฒนามาแบ่งปันความสนใจในเทคโนโลยีของ Google</p>
             </div>
             <div class="six wide right floated column"><img src="assets/images/gcpugth.png" class="ui centered image"/></div>
           </div>

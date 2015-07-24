@@ -82,13 +82,15 @@ body.th
         border-left 1px dashed #aaa
         .section
           padding-bottom 3em
+          position relative
           &:before
             content ''
             width 1em
             height 1em
             background #fff
             position absolute
-            left 0.5em
+            left -2.5em
+            top 0.7em
             border-radius 50%
             border 2px solid #aaa
           &:last-child
@@ -99,10 +101,10 @@ body.th
             font-weight 200
             color #aaa
           .subject
-            font-weight 100
+            font-weight 200
             font-size 2em
             line-height 1.2em
-            margin-bottom 0.3em
+            margin-bottom 0.1em
 
   &.secondary
     &.inverted
