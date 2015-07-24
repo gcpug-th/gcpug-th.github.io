@@ -144,6 +144,11 @@ body
               .meta 
                 | Google Developer Expert
               p.left.aligned Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.
+    //- Maps
+    #maps
+    .ui.vertical.maps
+      .overlay(onClick="style.pointerEvents='none'")
+      iframe(width='100%', height='480', frameborder='0', style='border:0', src='https://www.google.com/maps/embed/v1/place?q=Google%20(Thailand)%20Company%20Limited%20Pathum%20Wan%20Bangkok%20Thailand&key=AIzaSyCkGhqiGVkX6v28juzvA6NDJC9CWo3Ixbw', allowfullscreen='', allowzoom='no')
     //- About
     #about
     .ui.vertical.stripe.segment
@@ -163,7 +168,15 @@ body
               | (Google Developer Group) is developer community by the developers, for the developers with a shared interest in Google technologies
           .six.wide.right.floated.column
             img.ui.centered.image(src='assets/images/gcpugth.png')
-    //- Maps
-    #maps
-    .ui.vertical.maps
-        iframe(width='100%', height='70%', frameborder='0', style='border:0', src='https://www.google.com/maps/embed/v1/place?q=Google%20(Thailand)%20Company%20Limited%20Pathum%20Wan%20Bangkok%20Thailand&key=AIzaSyCkGhqiGVkX6v28juzvA6NDJC9CWo3Ixbw', allowfullscreen='', allowzoom='no')
+    .ui.inverted.vertical.footer.segment.cover
+      .ui.container
+        .ui.stackable.inverted.stackable.grid.center.aligned
+          .sixteen.wide.column
+            .keepintouch
+              .social
+                a(href='https://www.facebook.com/groups/googlecloudplatformTH')
+                  i.inverted.big.facebook.icon.link
+                a(href='https://github.com/gcpug-th')
+                  i.inverted.big.github.icon.link
+              .email
+                | gcpug.th@gmail.com
