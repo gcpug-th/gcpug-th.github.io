@@ -46,15 +46,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/dist\/accordion.css": {
 		"fileType": 16,
 		"ignore": 0,

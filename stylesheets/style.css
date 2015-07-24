@@ -1,3 +1,9 @@
+body.en .th {
+  display: none !important;
+}
+body.th .en {
+  display: none !important;
+}
 .ui.menu:not(.vertical) .center.item,
 .ui.menu:not(.vertical) .center.menu {
   display: -webkit-box;
