@@ -14,7 +14,7 @@
   padding: 2em 0em;
 }
 .masthead h1.ui.header {
-  margin-top: 2em;
+  margin-top: 1.4em;
   margin-bottom: 0.5em;
   font-size: 4.8em;
   font-weight: 700;
@@ -81,6 +81,16 @@
 .ui.vertical.stripe .agendar .section {
   padding-bottom: 3em;
 }
+.ui.vertical.stripe .agendar .section:before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  background: #fff;
+  position: absolute;
+  left: 0.5em;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+}
 .ui.vertical.stripe .agendar .section:last-child {
   padding-bottom: 0em;
 }
@@ -105,6 +115,10 @@
 .ui.inverted.segment.cover {
   background: url("../assets/images/bkk.jpg") no-repeat center;
   background-size: cover;
+}
+.ui.button {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin-top: 2em;
 }
 @media (max-width: 1200px) {
   .masthead h1.ui.header {

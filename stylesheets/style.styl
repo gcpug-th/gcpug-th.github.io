@@ -19,7 +19,7 @@
   h1
     &.ui
       &.header
-        margin-top 2em
+        margin-top 1.4em
         margin-bottom 0.5em
         font-size 4.8em
         font-weight 700
@@ -74,6 +74,15 @@
         border-left 1px dashed #aaa
         .section
           padding-bottom 3em
+          &:before
+            content ''
+            width 1em
+            height 1em
+            background #fff
+            position absolute
+            left 0.5em
+            border-radius 50%
+            border 2px solid #aaa
           &:last-child
             padding-bottom 0em
           .time
@@ -99,7 +108,9 @@
     &.segment.cover
       background url('../assets/images/bkk.jpg') no-repeat center
       background-size cover
-
+  &.button
+    font-family 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif
+    margin-top 2em
 @media(max-width:1200px)
   .masthead
     h1
