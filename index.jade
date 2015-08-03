@@ -53,20 +53,20 @@ html
           h1.ui.inverted.header
             | Google Cloud Platform<br>Developer Roadshow
           h2.en August 28, 3-6PM at Google Bangkok Office
-          h2.th 28 สิงหาคม, บ่าย 3 ถึง 6 โมงเย็น ที่ออฟฟิศ Google ประเทศไทย
+          h2.th 28 สิงหาคม, 15.00-16.00น ที่ออฟฟิศ Google ประเทศไทย
           h3.en by Google Cloud Platform User Group and Google Developer Group
           h3.th โดย Google Cloud Platform User Group และ Google Developer Group
           .row
             .sixteen.wide.column
-              a.big.ui.inverted.button(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').en Register Now!
-              a.big.ui.inverted.button(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').th ลงทะเบียน
+              a.huge.ui.inverted.button(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').en Register Now!
+              a.huge.ui.inverted.button(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').th ลงทะเบียน
       //- Welcome Text
       .ui.vertical.stripe.segment
         .ui.middle.aligned.stackable.grid.container
           .center.aligned.row
             .sixteen.wide.column
               h3.en Please come join us for some great learning and discussion on the future of compute, storage, big data and the power of <strong>Google Cloud Platform</strong>.
-              h3.th มาร่วมการเรียนรู้ พูดคุย แลกเปลี่ยนประสบการณ์ และความรู้ ในเรื่องอนาคตของ Cloud, Storage, Big data และ <strong>Google Cloud Platform</strong>
+              h3.th มาร่วมการเรียนรู้ พูดคุย แลกเปลี่ยนประสบการณ์ และความรู้ ในเรื่องอนาคตของ Cloud<br> Storage, Big data และ <strong>Google Cloud Platform</strong>
       //- Agendar
       #agendar
       .ui.vertical.stripe.segment
@@ -81,39 +81,30 @@ html
               .agendar
                 //- Registration
                 .section.en
-                  .subject
-                    | Registration
-                  .time
-                    | 3:00 PM
+                  .subject Registration
+                  .time 3:00 PM
                 .section.th
-                  .subject
-                    | ลงทะเบียน
-                  .time
-                    | 15:00 น.
+                  .subject ลงทะเบียน
+                  .time 15:00 น.
                 //- Welcome
                 .section.en
-                  .subject
-                    | Welcome
-                  .time
-                    | 3:15 PM
+                  .subject Welcome
+                  .time 3:15 PM
                 .section.th
-                  .subject
-                    | พิธีเปิด
-                  .time
-                    | 15:15 น.
+                  .subject พิธีเปิด
+                  .time 15:15 น.
                 //- Firebase
                 .section.en
-                  .subject
-                    | Firebase - Build Extraordinary Apps
-                  .time
-                    | 3:25 PM
+                  .subject Firebase - Build Extraordinary Apps
+                  .time 3:25 PM
                   p Firebase is a new member of Google Cloud Platform, but a proven tool for creating real-time experiences. Firebase is the fastest way to build your app. Come and learn how you can build applications quickly without managing complex infrastructure.
                 .section.th
-                  .subject
-                    | Firebase - แปลๆแปลจ๊ะแปล
-                  .time
-                    | 15:25 น.
-                  p Firebase is a new member of Google Cloud Platform, but a proven tool for creating real-time experiences. Firebase is the fastest way to build your app. Come and learn how you can build applications quickly without managing complex infrastructure.
+                  .subject Firebase 
+                    .ui.horizontal.label EN
+                  .time 15:25 น.
+                  p
+                    | สมาชิกใหม่แห่ง Google Cloud Platform ที่มาพร้อมเครื่องมือในการสร้าง Application แบบ Real-time ได้อย่างรวดเร็ว
+                    | มาลองเรียนรู้วิธีการสร้าง Application ระดับนี้ได้อย่างรวดเร็ว โดยไม่ต้องวุ่นวายกับ infrastructure ที่ซับซ้อน
                 //- DevOps
                 .section.en
                   .subject
@@ -122,40 +113,41 @@ html
                     | 4:10 PM
                   p In this talk I will discuss different ways of developing and operating infrastructures for web services, also referred to as DevOps. This will include topics such as infrastructure provisioning, continuous integration, application deployment, and monitoring. GCP services such as load-balancing and BigQuery, which are useful for improving efficiency of various DevOps processes, will also be covered. Finally, I will introduce Mackerel, a server monitoring SaaS that functions as a hub of actions pertaining to DevOps.
                 .section.th
-                  .subject
-                    | Modern DevOps with GCP แปลๆ
-                  .time
-                    | 16:10 น.
-                  p In this talk I will discuss different ways of developing and operating infrastructures for web services, also referred to as DevOps. This will include topics such as infrastructure provisioning, continuous integration, application deployment, and monitoring. GCP services such as load-balancing and BigQuery, which are useful for improving efficiency of various DevOps processes, will also be covered. Finally, I will introduce Mackerel, a server monitoring SaaS that functions as a hub of actions pertaining to DevOps.
+                  .subject ทางเลือกใหม่ของ DevOps บน GCP 
+                    .ui.horizontal.label EN
+                  .time 16:10 น.
+                  p.
+                    ในการบรรยายนี้เราจะพูดถึงทางเลือกต่างๆในการพัฒนา และจัดการโครงสร้างระบบสำหรับ Web Service
+                    ในมุมมองของ DevOps หัวข้อนี้จะรวมไปถึง infrastructure provisioning, continuous integration, application deployment และการ monitor
+                    บริการบน GCP เชjน load-balancing และ BigQuery ซึ่งจะช่วยเพิ่มประสิทธิภาพการทำงานให้กับ DevOp และบริการใหม่ Mackerel ที่จะช่วยในการ monitor ระบบต่างๆอีกด้วย
                 //- MapReduce
                 .section.en
-                  .subject
-                    | Your Data and the World Beyond MapReduce
-                  .time
-                    | 4:55 PM
+                  .subject Your Data and the World Beyond MapReduce
+                  .time 4:55 PM
                   p Google's MapReduce has been the most important innovation in the Big Data industry in last decade, which provided the technical foundation for Apache Hadoop MapReduce and other solutions. But at Google, we have moved to next generation technologies such as Dremel, Flume and MillWheel that replace the classic MapReduce infrastructure. In this session, we will introduce two products from Google Cloud Platform, BigQuery and Cloud Dataflow, that allow developers to leverage the power of the Google's latest Big Data technologies.
                 .section.th
-                  .subject
-                    | ข้อมูลของคุณและโลกนอกเหนือจาก MapReduce
-                  .time
-                    | 16:55 น.
-                  p Google's MapReduce has been the most important innovation in the Big Data industry in last decade, which provided the technical foundation for Apache Hadoop MapReduce and other solutions. But at Google, we have moved to next generation technologies such as Dremel, Flume and MillWheel that replace the classic MapReduce infrastructure. In this session, we will introduce two products from Google Cloud Platform, BigQuery and Cloud Dataflow, that allow developers to leverage the power of the Google's latest Big Data technologies.
+                  .subject ข้อมูลของคุณ กับโลกที่ก้าวไกลไปกว่า MapReduce 
+                    .ui.horizontal.label EN
+                  .time 16:55 น.
+                  p.
+                    เทคโนโลยี MapReduce จาก Google เป็นส่วนสำคัญในนวัตกรรม Big Data ของอุตสหกรรมตลอด 10ปีที่ผ่านมา
+                    ซึ่งทำให้เกิด Apache Hadoop MapReduce และทางเลือกอื่นๆอีกมากมาย ที่ Google เราก้าวไปไกลกว่าเดิม
+                    ด้วยเทคโยโลยีใหม่เช่น Dremel, Flume และ MillWheel ที่เข้ามาแทนที่โครงสร้าง MapReduce แบบเดิมๆ 
+                    ในหัวข้อนี้เราจะนำเสนอ 2 ผลิตภัณฑ์จาก Google Cloud Platform นั้นก็คือ BigQuery และ Cloud Dataflow
+                    ที่จะช่วยนักพัฒนาในการยกระดับขุมพลัง Big Data ล่าสุดจาก Google
                 //- Q&A
                 .section.en
                   .subject
                     | Q&A and Networking
-                  .time
-                    | 5:40 PM
+                  .time 5:40 PM
                 .section.th
-                  .subject
-                    | ถามตอบ และระบบเครือข่าย
-                  .time
-                    | 17:40 น.
+                  .subject ถาม/ตอบ และพูดคุยกับเพื่อนร่วมงาน
+                  .time 17:40 น.
         .ui.center.aligned.stackable.grid.container
           .row
             .sixteen.wide.column
-              a.big.ui.button.primary(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').en Register Now!
-              a.big.ui.button.primary(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').th ลงทะเบียน
+              a.huge.ui.button.primary(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').en Register Now!
+              a.huge.ui.button.primary(href='https://docs.google.com/a/google.com/forms/d/1YFPohOxYv7frowmjtArP9gA3GBRIXgsFEkUaKUC1MUw/viewform').th ลงทะเบียน
       //- Speaker
       #speaker
       .ui.vertical.stripe.segment
@@ -174,17 +166,17 @@ html
                   | Developer Advocate
                 p.left.aligned.en Kazunori Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
                 p.left.aligned.th.
-                  คุณ Sato เป็น Developer Advocate ที่ Cloud Platform team, Google Inc
-                  ดูแลและสนับสนุนนักพัฒนา Google Cloud Platform developer communities in Asia for, such as GCP User Group (GCPUG), #bq_sushi, and gcp ja night. He also supports Big Data product launch such as Cloud Dataflow and BigQuery.
+                  คุณ Sato เป็น Developer Advocate ที่ทีม Google Cloud Platform
+                  ดูแลและสนับสนุนนักพัฒนา ชุมชนนักพัฒนา Google Cloud Platform ในทวีปเอเซีย เช่น GCP User Group (GCPUG), #bq_sushi และ gcp ja night
+                  และยังสนับสนุนการเปิดตัวผลิตภัณฑ์ Big Data เช่น Cloud Dataflow และ BigQuery อีกด้วย
             .sixteen.wide.mobile.eight.wide.tablet.seven.wide.computer.column.right.floated
               img.ui.centered.small.circular.image(src='/assets/images/shinji.jpg')
               .speaker-profile
-                .name 
-                  | Shinji Tanaka
-                .meta 
-                  | Google Developer Expert
+                .name Shinji Tanaka
+                .meta Google Developer Expert
                 p.left.aligned.en Shinji Tanaka is the Chief Technology Officer at Hatena Co., Ltd. Hatena provides a variety of web-based services including Hatena Blog, and Hatena Bookmark. Launched in 2014, Hatena’s newest service, Mackerel, is a cloud management SaaS. Shinji is responsible for the technology behind all of Hatena’s services from front-end to infrastructure.
-                p.left.aligned.th Shinji Tanaka เป็น CTO (ประธานเจ้าหน้าที่ฝ่ายเทคโนโลยี) ของบริษัท Hatena เป็นผู้ให้บริการหลายหลายทางด้าน web-based service เช่น Hatena Blog และ Hatena Bookmark และได้เปิดตัวบริการใหม่ Mackerel เป็นบริการจัดการระบบ Cloud SaaS ในปี 2557 เขาเป็นผู้ดูแลเทคโนโลยีที่อยู่เบื้องหลังทั้งหมดของบริการของ Hatena ตั้งแต่ feont-end จนถึง Infrastructure
+                p.left.aligned.th. 
+                  คุณ Tanaka ดำรงตำแหนแหน่ง CTO ให้กับบริษัท Hatena เป็นผู้ให้บริการเว็บไซต์ที่หลายหลาย เช่น Hatena Blog และ Hatena Bookmark และได้เปิดตัวบริการใหม่ Mackerel เป็นบริการจัดการระบบ Cloud SaaS ในปี 2557 เขาเป็นผู้ดูแลเทคโนโลยีที่อยู่เบื้องหลังทั้งหมดของบริการของ Hatena ตั้งแต่ระบบหน้าบ้านจนไปถึงโครงสร้างระบบทั้งหมดเลยทีเดียว
       //- Maps
       #maps
       .ui.vertical.maps
@@ -204,14 +196,14 @@ html
               h3.ui.header 
                 | GCPUG
               p.en
-                | (Google Cloud Platform User Group) is a group for Cloud users, fans, experts and scholars
+                | <strong>Google Cloud Platform User Group</strong> is a group for Cloud users, fans, experts and scholars
               p.th
-                | (Google Cloud Platform User Group) คือชุมชนที่รวมตัวของผู้ใช้งาน Google Cloud ผู้ชื่นชอบ ผู้เชี่ยวชาญและนักวิชาการ
+                | <strong>Google Cloud Platform User Group</strong> คือชุมชนของผู้ใช้งาน Google Cloud ตั้งแต่ผู้ดูแลระบบ นักพัฒนา ผู้บริหาร ผู้เชี่ยวชาญ นักวิชาการ จนถึงแฟนๆ Google Cloud
               h3.ui.header GDG
               p.en
-                | (Google Developer Group) is developer community by the developers, for the developers with a shared interest in Google technologies
+                | <strong>Google Developer Group</strong> is developer community by the developers, for the developers with a shared interest in Google technologies
               p.th
-                | (Google Developer Group) ชุมชนสำหรับนักพัฒนาจากนักพัฒนาด้วยกัน สำหรับให้นักพัฒนามาแบ่งปันความสนใจในเทคโนโลยีของ Google
+                | <strong>Google Developer Group</strong> ชุมชนสำหรับนักพัฒนาเพื่อนักพัฒนาด้วยกัน เพื่อสร้างพื้นที่สำหรับให้นักพัฒนา แบ่งปันความสนใจในเทคโนโลยีของ Google
             .six.wide.right.floated.column
               img.ui.centered.image(src='assets/images/gcpugth.png')
       .ui.inverted.vertical.footer.segment.cover
