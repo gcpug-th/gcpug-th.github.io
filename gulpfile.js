@@ -29,7 +29,7 @@ gulp.task('bs-reload', function () {
 
 
 gulp.task('styles', function(){
-  gulp.src(['stylesheets/**/*.styl'])
+  gulp.src(['stylesheets/*.styl'])
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -37,13 +37,13 @@ gulp.task('styles', function(){
     }}))
     .pipe(stylus())
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(gulp.dest('dist/styles/'))
+    .pipe(gulp.dest('stylesheets/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 
 gulp.task('default', ['browser-sync'], function(){
-  gulp.watch("stylesheets/**/*.stylus", ['styles']);
+  gulp.watch("stylesheets/*.styl", ['styles']);
   gulp.watch("*.jade", ['templates']);
   gulp.watch("*.html", ['bs-reload']);
 });
