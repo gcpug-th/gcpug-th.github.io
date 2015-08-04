@@ -216,3 +216,9 @@ body.th .en {
     display: none;
   }
 }
+.photo-credit {
+  opacity: 0.7;
+}
+.photo-credit a {
+  color: #fff;
+}
